@@ -38,13 +38,18 @@ ul {
   }
  
   .kozep{
+    font-size: 10px;
     display: grid;
     grid-template-columns: 1fr 3fr;
+  }
+  aside{
+    width: 100%;
   }
   footer{
     text-align: center;
   }
   article{
+    padding: 10px;
     text-align: justify;
     font-size: 10px;
     font-family: 'Trebuchet MS', 'Helvetica', sans-serif;
