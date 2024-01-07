@@ -59,8 +59,12 @@ ul {
     font-size: 10px;
     display: grid;
     grid-template-columns: 1fr 3fr;
+    grid-template-areas: 
+          "as ar ar ar"
+    ;
   }
   aside{
+    grid-area: as;
     width: 100%;
     
   }
@@ -70,7 +74,7 @@ ul {
     color: white;
   }
   article{
-    grid-area: "a";
+    grid-area: ar;
     padding: 10px;
     text-align: justify;
     font-size: 10px;
@@ -98,6 +102,10 @@ ul {
       
       display: grid;
       grid-template-columns: 1fr;
+      grid-template-areas: 
+          "ar"
+          "as"
+    ;
     }
     aside{
       display: grid;
